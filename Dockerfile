@@ -1,4 +1,4 @@
-FROM python:2-alpine
+FROM python:2-slim
 MAINTAINER Shekhar Gulati "shekhargulati84@gmail.com"
 COPY . /app
 WORKDIR /app
